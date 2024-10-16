@@ -12,7 +12,6 @@ usage: 在Javascript中调用window.pywebview.api.<methodname>(<parameters>)
 from api.storage import Storage
 from api.system import System
 
-#测试
 class API(System, Storage):
     '''业务层API，供前端JS调用'''
 
